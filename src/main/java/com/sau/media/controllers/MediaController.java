@@ -25,6 +25,9 @@ public class MediaController {
         return null;
     }
 
+    public void getName(){
+        
+    }
 
 
 }

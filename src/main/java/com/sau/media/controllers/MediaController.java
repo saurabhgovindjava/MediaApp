@@ -17,10 +17,18 @@ public class MediaController {
     @PostMapping(value = "/createplaylist/{playlistName}")
     public List<String> createPlayList( @RequestBody List<String> songs, @PathVariable String playlistName){
 
+        System.out.println(" Print Playlist name");
         return mediaService.createPlayList(songs,playlistName);
 
     }
+    public List<String> getAllPlayListName(){
 
+        return null;
+    }
+
+    public void getName(){
+        
+    }
 
 
 }

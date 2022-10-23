@@ -20,6 +20,10 @@ public class MediaController {
         return mediaService.createPlayList(songs,playlistName);
 
     }
+    public List<String> getAllPlayListName(){
+
+        return null;
+    }
 
 
 
